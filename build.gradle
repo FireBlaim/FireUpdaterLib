@@ -1,0 +1,19 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+    id 'java'
+}
+
+group 'fr.fireblaim.fireupdaterlib'
+version '1.0'
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url "http://wytrem.github.io/maven/"
+    }
+}
+
+dependencies {
+    compile 'net.wytrem:wylog:2.0'
+}
